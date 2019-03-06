@@ -1,6 +1,6 @@
 #!/usr/bin/perl
-open (IN,"top100¸»¼¯GO.txt")||die"can't open eth file!:$!";
-open(OUT,">»ùÒò¸»¼¯GO.txt")||die"can't open eth file!:$!";
+open (IN,"top100GO.txt")||die"can't open eth file!:$!";
+open(OUT,">enrichedGO.txt")||die"can't open eth file!:$!";
 while(<IN>)
 {
         chomp($_);
